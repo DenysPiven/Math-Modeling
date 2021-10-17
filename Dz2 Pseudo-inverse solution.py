@@ -116,7 +116,7 @@ def set_():
 
         result = ['' for j in range(m)]
         for j in range(m):
-            result[j] = eval(mult_AT_P1_b[j] + '+' + v_values[j] + '-' + mult_AT_P1_Av[j])
+            result[j] = eval(mult_AT_P1_b[j] + '+' + v_values[j] + '+' + mult_AT_P1_Av[j])
             x[j].config(text=f"{eval(mult_AT_P1_b[j])}")
             x_v[j].config(text=f"{result[j]}")
 
